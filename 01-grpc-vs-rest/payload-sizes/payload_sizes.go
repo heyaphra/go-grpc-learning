@@ -1,3 +1,0 @@
-package sizes
-
-func main() {}

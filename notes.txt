@@ -1,2 +1,3 @@
 
-Compile .proto to .pb.go: protoc --proto_path=proto --go_out=plugins=grpc:proto service.proto   
+Compile to protobuf: (while in proto dir) protoc person.proto --go_out=..\payload-sizes
+Compile to protobuf with gRPC: protoc --proto_path=proto --go_out=plugins=grpc:proto service.proto   
