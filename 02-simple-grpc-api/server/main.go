@@ -4,9 +4,9 @@ import (
 	"context"
 	"net"
 
+	"github.com/spidercatnat/go-grpc-learning/02-simple-grpc-api/proto"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/grpc-api/proto"
 	"google.golang.org/grpc"
 )
 

@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/grpc-api/proto"
+	"github.com/spidercatnat/go-grpc-learning/02-simple-grpc-api/proto"
 	"google.golang.org/grpc"
 )
 
